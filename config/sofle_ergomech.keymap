@@ -19,14 +19,7 @@
 / {
     // Activate ADJUST layer by pressing raise and lower
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        adjust_layer {
-            if-layers = <1 2>;
-            then-layer = <4>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     behaviors {
         mousescroll: mousescroll {
@@ -42,7 +35,7 @@
         compatible = "zmk,keymap";
 
         base {
-            label = "default qwerty";
+            label = "base";
 
             // ------------------------------------------------------------------------------------------------------------
             // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
@@ -65,8 +58,8 @@
                 <&inc_dec_kp PG_UP PG_DN>;
         };
 
-        fn {
-            label = "function keys";
+        function_keys {
+            label = "fn";
 
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
@@ -88,8 +81,8 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        sym {
-            label = "symbols";
+        symbols {
+            label = "sym";
 
             // ------------------------------------------------------------------------------------------------------------
             // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
@@ -110,7 +103,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        media_bt {
+        media_and_bt {
             bindings = <
 &none   &none         &none         &none                 &none                 &none   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &none   &kp K_STOP    &kp K_PREV    &kp K_PLAY_PAUSE      &kp K_NEXT            &none   &none       &none         &none         &none         &none         &none
@@ -121,10 +114,10 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-            label = "media and bluetooth conn";
+            label = "media_bt";
         };
 
-        gaming {
+        game {
             // ----------------------------------------------------------------------------------------------------------------------------
             // | BTCLR  |  BT1    |  BT2    |   BT3   |   BT4   |   BT5   |                  |      |      |       |      |       |       |
             // | EXTPWR | RGB_HUD | RGB_HUI | RGB_SAD | RGB_SAI | RGB_EFF |                  |      |      |       |      |       |       |
@@ -132,7 +125,7 @@
             // |        |         |         |         |         |         | RGB_TOG | |      |      |      |       |      |       |       |
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
-            label = "gaming stuff";
+            label = "game";
             bindings = <
 &kp ESC     &kp N1  &kp N2  &kp N3        &kp N4    &kp N5     &kp N6     &kp N7        &kp N8     &kp N9   &kp N0    &kp BSPC
 &kp TAB     &kp Q   &kp W   &kp E         &kp R     &kp T      &kp Y      &kp U         &kp I      &kp O    &kp P     &kp DELETE
@@ -145,7 +138,7 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        gaming_sup {
+        gaming_support {
             bindings = <
 &kp F1  &kp F2    &kp F3    &kp F4     &kp F5     &kp F6  &kp F7  &kp F8          &kp F9          &kp F10    &kp F11  &kp F12
 &trans  &none     &none     &none      &none      &none   &none   &kp INSERT      &kp UP_ARROW    &kp HOME   &none    &none
@@ -155,7 +148,7 @@
                                                           &trans  &trans          &trans          &trans     &trans
             >;
 
-            label = "some extra stuff for gaming";
+            label = "game sup";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
     };
