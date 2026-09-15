@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP, LEFT, DOWN]
-  lower:
-  - '&studio_unlock'
+  default qwerty: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DELETE, LEFT SHIFT, A, S, D, F, G, H, J,
+    K, L, ;, '''', LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, '', '', function keys, LEFT WIN, SPACE, RETURN, LEFT ALT, RCTRL, '', '', ENTER, RIGHT,
+    UP, LEFT, DOWN]
+  function keys:
   - F1
   - F2
   - F3
@@ -15,7 +15,191 @@ layers:
   - F9
   - F10
   - F11
+  - F12
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PAGE UP
+  - DEL
+  - UP ARROW
+  - HOME
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - LEFT GUI
+  - LEFT SHIFT
+  - LCTRL
+  - ''
+  - PAGE DOWN
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - PRINTSCREEN
+  - CAPSLOCK
+  - KP NUMLOCK
+  - ''
+  - ENTER
+  - BACKSPACE
+  - TAB
+  - END
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: gaming stuff, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  symbols:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - ''
+  - _
+  - KP MINUS
+  - KP PLUS
+  - ''
+  - ''
   - '`'
+  - '~'
+  - KP EQUAL
+  - '|'
+  - ''
+  - {t: ▽, type: trans}
+  - LALT
+  - LEFT GUI
+  - LSHFT
+  - LEFT CONTROL
+  - ''
+  - '?'
+  - (
+  - '{'
+  - '['
+  - '&'
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - \
+  - '|'
+  - '&'
+  - ''
+  - '!'
+  - )
+  - '}'
+  - ']'
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - media and bluetooth conn
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  media and bluetooth conn:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - STOP
+  - PREV
+  - PLAY PAUSE
+  - NEXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - LEFT GUI
+  - LEFT SHIFT
+  - LEFT CONTROL
+  - ''
+  - ''
+  - {t: gaming stuff, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  gaming stuff:
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -26,174 +210,121 @@ layers:
   - '8'
   - '9'
   - '0'
+  - BSPC
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - DELETE
+  - LSHFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - MUTE
+  - ''
+  - ''
+  - {t: LEFT ALT, type: held}
+  - LGUI
+  - SPACE
+  - ENTER
+  - LEFT GUI
+  - some extra stuff for gaming
+  - ''
+  - ''
+  - {t: default qwerty, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  some extra stuff for gaming:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
   - F12
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - +
-  - '{'
-  - '}'
-  - '['
-  - ']'
-  - ;
-  - ':'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
-  raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - INSERT
+  - UP ARROW
+  - HOME
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - LALT
-  - LCTRL
+  - LGUI
   - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
-  - LEFT
-  - DOWN
+  - LCTRL
+  - ''
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
   - RIGHT
-  - DEL
-  - BSPC
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
-  adjust:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB TOG
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - A
-  - B
-  - C
-  - D
-  - E
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
