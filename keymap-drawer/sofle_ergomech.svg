@@ -124,8 +124,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(30, 0)" class="layer-default qwerty">
-<text x="0" y="28" class="label" id="default-qwerty">default qwerty:</text>
+<g transform="translate(30, 0)" class="layer-base">
+<text x="0" y="28" class="label" id="base">base:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 45)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -335,10 +335,8 @@ path.combo {
 </g>
 <g transform="translate(252, 260)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#function-keys">
-<text x="0" y="0" class="key tap layer-activator">
-<tspan x="0" dy="-0.6em" style="font-size: 88%">function</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">keys</tspan>
-</text>
+<a href="#fn">
+<text x="0" y="0" class="key tap layer-activator">fn</text>
 </a></g>
 <g transform="translate(314, 275) rotate(15.0)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -392,8 +390,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 521)" class="layer-function keys">
-<text x="0" y="28" class="label" id="function-keys">function keys:</text>
+<g transform="translate(30, 521)" class="layer-fn">
+<text x="0" y="28" class="label" id="fn">fn:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 45)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -608,10 +606,8 @@ path.combo {
 </g>
 <g transform="translate(252, 260)" class="key held keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<a href="#gaming-stuff">
-<text x="0" y="0" class="key held tap layer-activator">
-<tspan x="0" dy="-0.6em">gaming</tspan><tspan x="0" dy="1.2em">stuff</tspan>
-</text>
+<a href="#game">
+<text x="0" y="0" class="key held tap layer-activator">game</text>
 </a></g>
 <g transform="translate(314, 275) rotate(15.0)" class="key trans keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -663,8 +659,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1042)" class="layer-symbols">
-<text x="0" y="28" class="label" id="symbols">symbols:</text>
+<g transform="translate(30, 1042)" class="layer-sym">
+<text x="0" y="28" class="label" id="sym">sym:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 45)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -893,10 +889,9 @@ path.combo {
 </g>
 <g transform="translate(588, 260)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">media</tspan><tspan x="0" dy="1.2em">and</tspan><tspan x="0" dy="1.2em">…</tspan>
-</text>
-</g>
+<a href="#media_bt">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 88%">media_bt</tspan></text>
+</a></g>
 <g transform="translate(644, 252)" class="key trans keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
@@ -927,8 +922,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1562)" class="layer-media and bluetooth conn">
-<text x="0" y="28" class="label" id="media-and-bluetooth-conn">media and bluetooth conn:</text>
+<g transform="translate(30, 1562)" class="layer-media_bt">
+<text x="0" y="28" class="label" id="media_bt">media_bt:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 45)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1057,10 +1052,8 @@ path.combo {
 </g>
 <g transform="translate(588, 148)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#gaming-stuff">
-<text x="0" y="0" class="key tap layer-activator">
-<tspan x="0" dy="-0.9em">gaming</tspan><tspan x="0" dy="1.2em">stuff</tspan>
-</text>
+<a href="#game">
+<text x="0" y="0" class="key tap layer-activator">game</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(644, 140)" class="key keypos-32">
@@ -1178,8 +1171,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 2083)" class="layer-gaming stuff">
-<text x="0" y="28" class="label" id="gaming-stuff">gaming stuff:</text>
+<g transform="translate(30, 2083)" class="layer-game">
+<text x="0" y="28" class="label" id="game">game:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 45)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1409,10 +1402,11 @@ path.combo {
 </g>
 <g transform="translate(588, 260)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">some</tspan><tspan x="0" dy="1.2em">extra</tspan><tspan x="0" dy="1.2em">…</tspan>
+<a href="#game-sup">
+<text x="0" y="0" class="key tap layer-activator">
+<tspan x="0" dy="-0.6em">game</tspan><tspan x="0" dy="1.2em">sup</tspan>
 </text>
-</g>
+</a></g>
 <g transform="translate(644, 252)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
@@ -1421,10 +1415,8 @@ path.combo {
 </g>
 <g transform="translate(658, 381)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#default-qwerty">
-<text x="0" y="0" class="key tap layer-activator">
-<tspan x="0" dy="-0.9em">default</tspan><tspan x="0" dy="1.2em">qwerty</tspan>
-</text>
+<a href="#base">
+<text x="0" y="0" class="key tap layer-activator">base</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(714, 381)" class="key trans keypos-60">
@@ -1445,8 +1437,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 2604)" class="layer-some extra stuff for gaming">
-<text x="0" y="28" class="label" id="some-extra-stuff-for-gaming">some extra stuff for gaming:</text>
+<g transform="translate(30, 2604)" class="layer-game sup">
+<text x="0" y="28" class="label" id="game-sup">game sup:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 45)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
