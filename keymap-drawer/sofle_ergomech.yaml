@@ -60,11 +60,11 @@ layers:
   - fn
   - ''
   - ''
-  - ENTER
-  - RIGHT
-  - UP
-  - LEFT
-  - DOWN
+  - '&mkp LCLK'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
   fn:
   - F1
   - F2
