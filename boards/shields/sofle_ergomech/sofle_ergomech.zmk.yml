@@ -9,7 +9,8 @@ features:
   - keys
   - display
   - encoder
-  - underglow
+  - studio
 siblings:
+  - sofle_central_dongle
   - sofle_ergomech_left
   - sofle_ergomech_right
