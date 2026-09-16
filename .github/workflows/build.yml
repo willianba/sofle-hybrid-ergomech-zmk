@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
 
   create_release_master:
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
@@ -34,7 +34,7 @@ jobs:
           tag_name: ${{ steps.date.outputs.date }}-${{ github.sha }}
           name: Firmware ${{ steps.date.outputs.date }} - master
           body: Build from commit ${{ github.sha }}
-          files: '*.uf2'
+          files: "*.uf2"
 
   create_release_rev5:
     if: github.event_name == 'push' && github.ref == 'refs/heads/sofle_hybrid_rgb_rev5'
@@ -56,4 +56,4 @@ jobs:
           tag_name: ${{ steps.date.outputs.date }}-${{ github.sha }}
           name: Firmware ${{ steps.date.outputs.date }} - rev5
           body: Build from commit ${{ github.sha }}
-          files: '*.uf2'
+          files: "*.uf2"
