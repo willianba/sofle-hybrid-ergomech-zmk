@@ -1,7 +1,70 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  base: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DELETE, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;,
-    '''', LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, '', '', sym, LEFT WIN, SPACE, RETURN, LEFT ALT, fn, '', '', ENTER, RIGHT, UP, LEFT, DOWN]
+  base:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACKSPACE
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - DELETE
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LEFT CONTROL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - MUTE
+  - {t: game, h: toggle}
+  - ''
+  - sym
+  - LEFT WIN
+  - SPACE
+  - RETURN
+  - LEFT ALT
+  - fn
+  - ''
+  - ''
+  - ENTER
+  - RIGHT
+  - UP
+  - LEFT
+  - DOWN
   fn:
   - F1
   - F2
@@ -247,7 +310,7 @@ layers:
   - /
   - RSHFT
   - MUTE
-  - ''
+  - {t: base, h: toggle}
   - ''
   - LEFT ALT
   - SPACE
@@ -257,7 +320,7 @@ layers:
   - game sup
   - ''
   - ''
-  - {t: base, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
