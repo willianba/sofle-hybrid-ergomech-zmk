@@ -17,13 +17,13 @@ include:
     shield: sofle_central_dongle dongle_display
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
-    artifact-name: central_dongle-niche_nano-zmk
+    artifact-name: central_dongle-nice_nano-zmk
   - board: nice_nano//zmk
     shield: sofle_ergomech_left nice_view_adapter nice_view_gem
-    artifact-name: sofle_left-niche_nano-zmk
+    artifact-name: sofle_left-nice_nano-zmk
   - board: nice_nano//zmk
     shield: sofle_ergomech_right nice_view_adapter nice_view_gem
-    artifact-name: sofle_right-niche_nano-zmk
+    artifact-name: sofle_right-nice_nano-zmk
   - board: nice_nano//zmk
     shield: settings_reset
     artifact-name: settings_reset-nice_nano-zmk
