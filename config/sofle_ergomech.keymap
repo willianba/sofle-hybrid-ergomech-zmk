@@ -19,7 +19,6 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-
             tap-ms = <20>;
         };
     };
@@ -46,7 +45,7 @@
                                                                    &mkp LCLK   &mmv MOVE_RIGHT  &mmv MOVE_UP  &mmv MOVE_LEFT  &mmv MOVE_DOWN
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         function_keys {
@@ -69,7 +68,7 @@
                                                                                &trans         &trans          &trans          &trans           &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         symbols {
@@ -91,7 +90,7 @@
                                                                          &trans        &trans                 &trans           &trans             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         media_and_bt {
@@ -104,7 +103,7 @@
                                                                                         &trans      &trans        &trans        &trans        &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             label = "media_bt";
         };
 
@@ -126,7 +125,7 @@
                                                                 &trans     &trans        &trans     &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         gaming_support {
