@@ -9,13 +9,13 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: 4de313367288aad5aeaa1243890e40dc813f7008
       import: app/west.yml
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main
+      revision: 2bb333f87136d33e94a49d86236ed9ec254a8060
     - name: nice-view-gem
       remote: M165437
-      revision: main
+      revision: 0a50fe209d929c916c5664c6affd0f4977c6b012
   self:
     path: config
