@@ -51,7 +51,7 @@ layers:
   - RSHFT
   - MUTE
   - {t: game, h: toggle}
-  - ''
+  - settings
   - sym
   - LEFT WIN
   - SPACE
@@ -125,11 +125,11 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
   sym:
   - F1
   - F2
@@ -190,11 +190,11 @@ layers:
   - media_bt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
   media_bt:
   - ''
   - ''
@@ -255,11 +255,11 @@ layers:
   - {type: held}
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
   game:
   - ESC
   - '1'
@@ -320,11 +320,11 @@ layers:
   - game sup
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
   game sup:
   - F1
   - F2
@@ -385,8 +385,73 @@ layers:
   - {type: held}
   - ''
   - ''
+  - '&mkp LCLK'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  settings:
+  - '&bootloader'
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - LALT
+  - LGUI
+  - LSHFT
+  - LCTRL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&soft_off'
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
